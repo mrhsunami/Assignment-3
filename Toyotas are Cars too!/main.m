@@ -7,11 +7,27 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Car.h"
+#import "Toyota.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+      
+        Car *nissan = [[Car alloc] initWithModel:@"Rogue"];
+        NSLog(@"%@", [nissan model]);
+        
+        [nissan drive];
+        
+        Toyota *prius = [[Toyota alloc]init];
+        NSLog(@"%@", [prius model]);
+        
+        [prius drive];
+        
+        
+        
+        
+        
     }
     return 0;
 }
