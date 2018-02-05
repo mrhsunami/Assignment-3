@@ -10,6 +10,4 @@
 
 @interface Toyota : Car
 
-
-
 @end

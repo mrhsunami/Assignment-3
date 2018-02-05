@@ -10,13 +10,9 @@
 
 @interface Car : NSObject
 
-
-
 @property NSString *model;
+
 -(void) drive;
-
-
 -(id) initWithModel: (NSString*) model;
-
 
 @end

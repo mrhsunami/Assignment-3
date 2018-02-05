@@ -12,10 +12,10 @@
 
 
 -(id) init {
-    self = [super init];
-    if (self) {
-        self.model = @"Prius";
-    }
+    self = [super initWithModel:@"Prius"];
+//    if (self) {
+//        self.model = @"Prius";
+//    }
     return self;
 }
 
